@@ -1,0 +1,25 @@
+README:
+* Add links to THS website, forum, Gitter.im rooms for THS and this course
+
+u01:
+* Where do we mention AC current (even though we're not really dealing
+  with it in this course?)
+* Resistor Color Code table
+* Better typesetting for exponents?
+* E-numbers
+
+u02: Measuring Resistance
+* Move warnings someplace better?
+* Warnings re Cat II+
+* Warnings not to use ranges until you've learned about them.
+* Hack up a graphite pencil for resistance measurements.
+
+u03: Continuity
+* Formatting?
+
+u04:
+* Where do we note that just testing the voltage of a battery with a
+  meter is building a circuit, and of course every time you stick a
+  meter into a circuit you're actually modifying that circuit?
+
+Appendix: Multimeter Characteristics
