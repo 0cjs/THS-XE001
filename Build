@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+basedir="$(cd $(dirname "$0") && pwd -P)"
+
+cd "$basedir"
+mkdir -p .build
+echo "===== image/ → .build/image/"
+rsync -r image .build/
+for src in *.md; do
+    out=".build/$(basename "$src" .md).html"
+    echo "----- $src → $out"
+    pandoc --standalone "$src" -o "$out"
+done
+
+echo '===== Full course → .build/THS-XE001.pdf'
+pandoc --latex-engine=xelatex \
+    -o .build/THS-XE001.pdf \
+    contents.md u*.md references.md
+
