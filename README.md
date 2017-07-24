@@ -1,6 +1,8 @@
 XE001: DC Electronics (Proposed Course)
 =======================================
 
+[![Join the chat at https://gitter.im/THS-XE001/Lobby](https://badges.gitter.im/THS-XE001/Lobby.svg)](https://gitter.im/THS-XE001/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 (XE001 is a temporary name until we're ready to assign a proper one.)
 
 The current version of this is actually [THS XE001 Basic Electricity -
