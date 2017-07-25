@@ -9,7 +9,7 @@ rsync -r image .build/
 for src in *.md; do
     out=".build/$(basename "$src" .md).html"
     echo "----- $src → $out"
-    pandoc --standalone "$src" -o "$out"
+    pandoc --mathjax --standalone "$src" -o "$out"
 done
 
 echo '===== Full course → .build/THS-XE001.pdf'
