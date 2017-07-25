@@ -14,3 +14,4 @@ Lab Equipment and Parts List
 
 * Resistors
 * Potentiometer (XXX breadboard mount?)
+* Switches and buttons
